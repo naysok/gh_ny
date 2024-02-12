@@ -13,16 +13,10 @@
 
 ## Rhino  
 
-- 
+- [CreateLayer_Command](https://github.com/naysok/gh_ny?tab=readme-ov-file#CreateLayer_Command)  
+- [ExpandLayer_Command](https://github.com/naysok/gh_ny?tab=readme-ov-file#ExpandLayer_Command)  
+- [GetLayer_Command](https://github.com/naysok/gh_ny?tab=readme-ov-file#GetLayer_Command)  
 
-
----  
-
-
-
----  
-
----  
 
 
 ## Grasshopper  
@@ -137,4 +131,33 @@ gh のフローの中で、メッシュの削減ができる。
 詳細はこちら ([GitHub](https://github.com/naysok/Study-makeSurface-gh))  
 
 ![Study-makeSurface-gh](images/Study-makeSurface-gh.jpg)  
+
+
+# GetLayer_Command  
+
+指定したオブジェクトのレイヤーのフルパスをクリップボードに貼るコマンド。  
+
+詳細はこちら ([GitHub](https://github.com/viccBlog/20240131_GET_LAYER_COMMAND))  
+
+![GetLayer_Command](images/GetLayer_Command.png)  
+
+
+# ExpandLayer_Command
+
+ライノのレイヤーを展開するコマンド。  
+
+詳細はこちら ([GitHub](https://github.com/naysok/Expand_All_Layer))  
+
+![ExpandLayer_Command](images/ExpandLayer_Command.png)  
+
+
+# CreateLayer_Command  
+
+レイヤーを新規作成する際に今あるレイヤーとは別の色でレイヤーを作成する（イラレなどはこうですね）コマンド。  
+
+詳細はこちら ([GitHub](https://github.com/naysok/Create_Layer_with_Random_Color))  
+
+![CreateLayer_Command](images/CreateLayer_Command.png)  
+
+
 
