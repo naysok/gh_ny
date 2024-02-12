@@ -2,7 +2,6 @@
 
 // ちょっと便利っぽい Rhino / Grasshopper のスクリプト等  
 
-
 毎日毎日、いつかのどこかの誰かがインターネットに残してくれた情報によって、多大な恩恵を受けていて、そういうものにいつもいつも助けられている。  
 
 最近は、その恩を少しずつでも返していけたらと思っているので、制作の過程で作ったちょっと便利っぽいスクリプトを公開していきたいと思っています。  
@@ -12,7 +11,21 @@
 ~~ライセンスとか書いてませんがどうぞご自由に。~~ 後ほどライセンスなど適切に記入します。  
 
 
-### index  
+## Rhino  
+
+- 
+
+
+---  
+
+
+
+---  
+
+---  
+
+
+## Grasshopper  
 
 - [Construct_Mesh_from_CLosed_Curve](https://github.com/naysok/gh_ny?tab=readme-ov-file#construct_mesh_from_closed_curve)  
 - [Export-Image-with-Sequence](https://github.com/naysok/gh_ny?tab=readme-ov-file#Export-Image-with-Sequence)  
@@ -24,8 +37,6 @@
 - [ReduceMesh-via-ghPython](https://github.com/naysok/gh_ny?tab=readme-ov-file#ReduceMesh-via-ghPython)  
 - [Study-makeSurface-gh](https://github.com/naysok/gh_ny?tab=readme-ov-file#Study-makeSurface-gh)  
 
-
----  
 
 ---  
 
@@ -41,9 +52,6 @@
 ![Construct_Mesh_from_CLosed_Curve](images/Construct_Mesh_from_CLosed_Curve.jpg)  
 
 
----  
-
-
 # Export-Image-with-Sequence  
 
 rs.Command("-ViewportCaputureToFile") で連番で画像を書き出す。  
@@ -52,9 +60,6 @@ Rhino5 では動作確認しています。
 詳細はこちら([GitHub](https://github.com/naysok/Export-Image-with-Sequence))  
 
 ![Export-Image-with-Sequence](images/Export-Image-with-Sequence.jpg)  
-
-
----  
 
 
 # GenerateCuttingLine-from-UnrolledSurface  
@@ -66,9 +71,6 @@ UnrollSurface に自動でのりしろを生成して、レーザー加工用の
 詳細はこちら ([GitHub](https://github.com/naysok/GenerateCuttingLine-from-UnrolledSurface))　　
 
 ![GenerateCuttingLine.jpg](images/GenerateCuttingLine.jpg)  
-
-
----  
 
 
 # ghx3DVJ  
@@ -83,9 +85,6 @@ Rhino を使っているので、3D オブジェクトを弄りやすい。ち�
 ![ghx3DVJ](images/ghx3DVJ.jpg)  
 
 
----  
-
-
 # GrasshopperBake-with-SerialNumber  
 
 K個の数列、UxV個の行列を、連番の名前をつけて、自動で STL に書き出すスクリプト。  
@@ -96,9 +95,6 @@ id を振っておかないといけない時に、手でちまちまやりた�
 ![GrasshopperBake-with-SerialNumber](images/GrasshopperBake-with-SerialNumber.jpg)  
 
 
----  
-
-
 # Matrix_Font  
 
 けがき用のミニマムなフォント。  
@@ -107,9 +103,6 @@ id を振っておかないといけない時に、手でちまちまやりた�
 詳細はこちら([GitHub](https://github.com/naysok/Matrix_Font))  
 
 ![Matrix_Font](images/Matrix_Font.jpg)  
-
-
----  
 
 
 # MeshStreaming_via_DB  
@@ -124,9 +117,6 @@ Unity とか、その辺整えたい。
 ![MeshStreaming_via_DB](images/MeshStreaming_via_DB.jpg)  
 
 
----  
-
-
 # ReduceMesh-via-ghPython  
 
 ReduceMesh を、ghPython の中で呼び出すスクリプト。  
@@ -135,9 +125,6 @@ gh のフローの中で、メッシュの削減ができる。
 詳細はこちら ([GitHub](https://github.com/naysok/ReduceMesh-via-ghPython))  
 
 ![ReduceMesh-via-ghPython](images/ReduceMesh-via-ghPython.jpg)  
-
-
----  
 
 
 # Study-makeSurface-gh  
@@ -151,7 +138,3 @@ gh のフローの中で、メッシュの削減ができる。
 
 ![Study-makeSurface-gh](images/Study-makeSurface-gh.jpg)  
 
-
----  
-
----  
